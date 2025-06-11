@@ -24,7 +24,7 @@ You are an SEO expert AI blog writer. Write a 2000-word blog for the site "learn
       },
       {
         headers: {
-          'x-rapidapi-key': '8e3573e266msh59690d31e16a788p15037fjsn91666640a99f', // Provided API key
+          'x-rapidapi-key': 'Your Key', // Provided API key
           'x-rapidapi-host': 'gemini-1-5-flash.p.rapidapi.com',
           'Content-Type': 'application/json',
         },
