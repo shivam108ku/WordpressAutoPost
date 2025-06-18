@@ -34,7 +34,7 @@ Rules:
       },
       {
         headers: {
-          'x-rapidapi-key': '8e3573e266msh59690d31e16a788p15037fjsn91666640a99f',
+          'x-rapidapi-key': 'process.env.RAPIDAPI_KEY',
           'x-rapidapi-host': 'gemini-1-5-flash.p.rapidapi.com',
           'Content-Type': 'application/json',
         },
@@ -61,7 +61,7 @@ async function generateImage(prompt) {
       aspect_ratio: '16:9',
     },
     headers: {
-      'x-rapidapi-key': '8e3573e266msh59690d31e16a788p15037fjsn91666640a99f',
+      'x-rapidapi-key': 'process.env.RAPIDAPI_KEY',
       'x-rapidapi-host': 'flux-api-4-custom-models-100-style.p.rapidapi.com',
     },
   };
